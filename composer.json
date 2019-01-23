@@ -1,0 +1,21 @@
+{
+  "name": "verax5/companyhouse",
+  "description": "Interface for Company House API",
+  "authors": [
+    {
+      "name": "samiuddin",
+      "email": "phpdevsami@gmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "CompanyHouse\\": "src/"
+    }
+  },
+
+  "require": {
+    "phpunit/phpunit": "^7.5",
+    "guzzlehttp/guzzle": "^6.3"
+  }
+}
